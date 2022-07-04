@@ -1,0 +1,8 @@
+.idea
+.gradle
+**/build/
+
+src/main/resources/terraform/.terraform
+src/main/resources/terraform/.terraform.lock.hcl
+src/main/resources/terraform/.terraform.tfstate.lock.info
+src/main/resources/terraform/terraform.tfstate
