@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    queues:
+      resource-created: RESOURCE_CREATED
+      resource-get: RESOURCE_GET
+      song-create: SONG_CREATE
+      song-created: SONG_CREATED
+      resource-content: RESOURCE_CONTENT
